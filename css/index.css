@@ -18,6 +18,10 @@
     font-size: 150px;
 }
 
+.background__transparent{
+    background-color: rgba(0, 0, 0, .6);
+}
+
 body {
     background-color: black;
     color: white;
@@ -69,6 +73,10 @@ header{
     transition: border 1s;
 }
 
+a:hover{
+    color: inherit;
+}
+
 /*CSS del main*/
 
 main{
@@ -93,38 +101,19 @@ h1{
 }
 
 .main__texto{
-    width:500px;
-}
-
-.main__transbox{
-    margin: 30px;
-    background-image: url(../imagenes/fondoblanco.jpg);
-    border: 1px solid black;
-    opacity: 0.6;
-}
-
-div.main__transbox p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-}
-
-div.main__transbox h2 {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
+    width:45%;
 }
 
 .main__subtitulo{
     font-family: 'Century Gothic',sans-serif;
     font-size: 40px;
-    margin-bottom: 30px;
-    margin-left: 120px;
+    margin:auto;
+    text-align: center;
 }
 
 .main__parrafo{
     font-family: 'Century Gothic',sans-serif;
-    margin-left: 100px;
+    padding: 1em;
 }
 
 .parallax {
@@ -244,9 +233,15 @@ footer{
     font-size: 20px;
 }
 
+
+
+
+
 .main__form{
     text-align: center;
     font-family: 'Bookman Old Style',sans-serif;
+    width: 65%;
+    margin: auto;
 }
 
 @media screen and (max-width: 507px) {

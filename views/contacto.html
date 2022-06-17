@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="shortcut icon" href="../imagenes/logo.png">
 </head>
@@ -33,31 +34,34 @@
             </ul>
         </nav>
     </header>
-    <main class="parallax">
+    <main class="parallax container">
         <h1>Contacto</h1>
-        <div class="main__parrafo--contacto">
-            <p>A través del siguiente formulario déjanos por favor tus comentarios a cerca de la página, nos encanta leerte!</p>
-        </div>
-        <div class="main__form">
-            <form action="" method="post" enctype="multipart/form-data">
-                <div>
-                    <label for="nombre_completo">Nombre Completo</label>
-                    <input type="text" name="nombre" placeholder="Ingresa tu nombre completo">
-                </div>
-                <div>
-                    <label for="correo_electronico">Email</label>
-                    <input type="text" name="correo_electronico" placeholder="Ingresa tu correo electronico">
-                </div>
-                <div>
-                    <label for="comentarios">Mensaje</label>
-                    <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Ingresa tu comentario"></textarea> 
-                </div>
+        
+        <section class="background__transparent">
+            <div class="main__parrafo--contacto">
+                <p>A través del siguiente formulario déjanos por favor tus comentarios a cerca de la página, nos encanta leerte!</p>
+            </div>
+            <div class="main__form">
+                <form action="" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre Completo</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre Completo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Déjanos tus comentarios</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
+                    </div>
 
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar formulario">
+                    <button type="submit" class="btn btn-light">Enviar</button>
+                    <button type="submit" class="btn btn-dark">Borrar Formulario</button>
 
-            </form>
-        </div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>   
         <div class="footer__text">
