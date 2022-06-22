@@ -244,26 +244,73 @@ footer{
     margin: auto;
 }
 
-@media screen and (max-width: 507px) {
+@media (min-width:0px) and (max-width: 320px){
+
+    .header__link--logo{
+        margin: auto;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .header__logo{
+        margin: auto;
+        width: 100%;
+    }
     header{
         flex-direction: column;
         gap: 2rem;
         justify-content: center;
         align-items: center;
+        vertical-align: middle;
     }
 
+    .menu{
+        justify-content: center;
+        align-items: center;
+    }
     .menu__item{  
         display:flex;
         justify-content: center;
         align-items: center;
     }
 
+    ul{
+        padding: 0;
+    }
+    .main__subtitulo{
+        font-size: 30px;
+    }
+
+    .container{
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main__flex{
+        max-width: 100%;
+        align-items: center;
+        margin: auto;
+    }
+
+    .main__texto{
+        width: 100%;
+    }
+
+    .background__transparent{
+        width: 100%;
+    }
+
     .HPFont{
-        font-size: 130px;
+        font-size: 70px;
     }
 
     .footer__text{
-        margin: 0;
+        margin: 1em;
+    }
+
+    div a img{
+        width:30px;
     }
 
     /*Autora*/
@@ -277,24 +324,233 @@ footer{
         gap: 2rem;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     
 
     .main__parrafo{
-        margin: 0;
+        margin: auto;
+        width: 95%;
+    }
+    .main__foto--inline{
+        width:100%;
     }
     .main__foto--padding{
         padding:0;
-        height: 500px;
-        }
+        width: 90%;
+    }
     
     .main__video{
         text-align: center;
         padding-bottom: 50px;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 958px) {
+ @media (min-width:321px) and (max-width: 507px) {
+    .header__link--logo{
+        margin: auto;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .header__logo{
+        margin: auto;
+        width: 100%;
+    }
+    header{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .menu{
+        justify-content: center;
+        align-items: center;
+    }
+    .menu__item{  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    .HPFont{
+        font-size: 70px;
+    }
+
+    .footer__text{
+        margin: 1rem;
+    }
+
+    .footer__imagenes{
+        width: auto;
+    }
+
+    div a img{
+        width:30px;
+    }
+
+    .container{
+        max-width: 90% ;
+    }
+
+    .main__flex{
+        max-width: 90%;
+        align-items: center;
+        margin: auto;
+    }
+
+    .main__texto{
+        width: 90%;
+    }
+
+    .background__transparent{
+        width: 90%;
+    }
+
+    .main__subtitulo{
+        font-size: 30px;
+    }
+
+    /*Autora*/
+    .main__video{
+        width: 100%;
+    }
+    
+    .main__section--1{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    .main__parrafo{
+        margin: auto;
+        width: 95%;
+    }
+    .main__foto--inline{
+        width:100%;
+    }
+    .main__foto--padding{
+        padding:0;
+        width: 90%;
+    }
+    
+    .main__video{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+} 
+@media (min-width: 507px) and (max-width: 768px){
+    .header__link--logo{
+        margin: auto;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .header__logo{
+        margin: auto;
+        width: 100%;
+    }
+    header{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .menu{
+        justify-content: center;
+        align-items: center;
+    }
+    .menu__item{  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    .HPFont{
+        font-size: 130px;
+    }
+
+    .footer__text{
+        margin: 1rem;
+    }
+
+    .footer__imagenes{
+        width: auto;
+    }
+
+    div a img{
+        width:50px;
+    }
+
+    .container{
+        max-width: 90% ;
+    }
+
+    .main__flex{
+        max-width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+
+    .main__texto{
+        width: 90%;
+    }
+
+    .background__transparent{
+        width: 90%;
+    }
+
+    /*Autora*/
+    .main__video{
+        width: 100%;
+    }
+    
+    .main__section--1{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    .main__parrafo{
+        margin: auto;
+        width: 95%;
+    }
+    .main__foto--inline{
+        width:100%;
+    }
+    .main__foto--padding{
+        padding:0;
+        width: 90%;
+    }
+    
+    .main__video{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width: 958px) {
     header{
         flex-direction: column;
         gap: 2rem;
@@ -311,6 +567,72 @@ footer{
         gap: 2rem;
         justify-content: center;
         align-items: center;
+    }
+
+    .HPFont{
+        font-size: 130px;
+    }
+
+    .footer__text{
+        margin: 1rem;
+    }
+
+    .footer__imagenes{
+        width: auto;
+    }
+
+    div a img{
+        width:50px;
+    }
+
+    .container{
+        max-width: 90% ;
+    }
+
+    .main__flex{
+        max-width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+
+    .main__texto{
+        width: 90%;
+    }
+
+    .background__transparent{
+        width: 90%;
+    }
+
+    /*Autora*/
+    .main__video{
+        width: 100%;
+    }
+    
+    .main__section--1{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    .main__parrafo{
+        margin: auto;
+        width: 95%;
+    }
+    .main__foto--inline{
+        width:100%;
+    }
+    .main__foto--padding{
+        padding:0;
+        width: 90%;
+    }
+    
+    .main__video{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 100%;
     }
 }
 
