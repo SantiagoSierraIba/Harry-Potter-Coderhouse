@@ -1,0 +1,49 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .header__link--logo{
+        width: 200px;
+        margin: 0 250px 0 0;
+    }
+
+    .header__logo{
+        display: flex;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .menu {
+        color: white;
+        font-size: 30px;
+        font-family: myFirstFont;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu__item{  
+        display: inline-block;
+    }
+
+    .menu__link{
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        border: 2px solid black;
+    }
+    
+    
+    .menu__link:hover{ 
+        background-color: #0B0E09;
+        border-color: white;
+        font-size: 40px;
+        transition: border 1s;
+    }
+    
+    a:hover{
+        color: inherit;
+    }
+}
