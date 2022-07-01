@@ -1,4 +1,17 @@
 /* MISC */
+/*Spacings*/
+.spacing-large {
+  padding: 6rem; }
+
+.spacing-medium {
+  padding: 3rem; }
+
+.spacing-small {
+  padding: 2rem; }
+
+.spacing-xsmall {
+  padding: 1.5rem; }
+
 /* PARTIALS */
 header {
   width: 100%;
@@ -35,7 +48,8 @@ header {
     color: inherit; }
 
 main {
-  width: 100%; }
+  width: 100%;
+  /*Personajes*/ }
   main h1 {
     font-family: myFirstFont;
     font-size: 70px;
@@ -84,9 +98,23 @@ main {
   main .main__video {
     text-align: center;
     padding-bottom: 50px;
-    transition: transform 0.6s; }
+    transition: transform 0.6s;
+    height: 450px;
+    width: 500px; }
   main .main__video:hover {
     transform: scale(2); }
+  main .main__foto--harry {
+    height: 400px;
+    background-size: cover;
+    background-image: url("../../imagenes/harry.jpg"); }
+  main .main__foto--hermione {
+    height: 400px;
+    background-size: cover;
+    background-image: url("../../imagenes/hermione.jpg"); }
+  main .main__foto--ronweasley {
+    height: 400px;
+    background-size: cover;
+    background-image: url("../../imagenes/ron.jpg"); }
 
 * {
   margin: 0;
@@ -127,6 +155,24 @@ footer {
     display: inline-block; }
 
 /* VIEWS */
+form .btn, form .btn--enviar, form .btn--borrar {
+  width: 150px;
+  padding: 10px 12px;
+  font-size: 18px;
+  margin: 5px auto;
+  border: none;
+  color: white; }
+
+form .btn--enviar {
+  background-color: #381d18; }
+  form .btn--enviar:hover {
+    background-color: rgba(188, 75, 55, 0.471); }
+
+form .btn--borrar {
+  background-color: #8c0fda; }
+  form .btn--borrar:hover {
+    background-color: rgba(75, 13, 105, 0.238); }
+
 /* MEDIA QUERIES */
 @media (min-width: 0px) and (max-width: 320px) {
   .header__link--logo {

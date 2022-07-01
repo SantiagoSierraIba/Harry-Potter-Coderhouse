@@ -72,11 +72,28 @@ main{
         text-align: center;
         padding-bottom: 50px;
         transition: transform 0.6s;
+        @include sizes(500px,450px)
     }
     
     .main__video:hover{
         transform: scale(2);
     }
+
+    /*Personajes*/
+    $personajes: (
+    harry: "harry",
+    hermione: "hermione",
+    ronweasley: "ron",
+);
+
+@each $key,$val in $personajes {
+    .main__foto--#{$key}{
+        height: 400px;
+        background-size: cover;
+        background-image: url('../../imagenes/#{$val}.jpg');
+        gap: map-get($spacings, $spacing-xsmall);
+    }
+}
 }
 
 *{

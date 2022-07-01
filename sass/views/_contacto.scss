@@ -1,0 +1,26 @@
+form{
+    .btn{
+        width: 150px;
+        padding: 10px 12px;
+        font-size: 18px;
+        margin:5px auto;
+        border: none;
+        color: white;
+    }
+    .btn--enviar{
+        @extend .btn;
+        background-color:rgb(56, 29, 24);
+        &:hover{
+            background-color: rgba(188, 75, 55, 0.471);
+        }
+    }
+    .btn--borrar{
+        @extend .btn;
+        background-color:rgb(140, 15, 218);
+        &:hover{
+            background-color: rgba(75, 13, 105, 0.238);
+        }
+    }
+}
+
+

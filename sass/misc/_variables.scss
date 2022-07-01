@@ -1,0 +1,18 @@
+/*Spacings*/
+$spacing-large: 6rem;
+$spacing-medium:3rem;
+$spacing-small: 2rem;
+$spacing-xsmall: 1.5rem;
+
+$spacings:(
+    spacing-large: 6rem,
+    spacing-medium:3rem,
+    spacing-small: 2rem,
+    spacing-xsmall: 1.5rem
+);
+
+@each $key, $var in $spacings {
+    .#{$key}{
+        padding: #{$var};
+    }
+}
