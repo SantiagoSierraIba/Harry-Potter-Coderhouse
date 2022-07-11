@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <a href="./index.html" class="header__link--logo">
+        <!-- <a href="./index.html" class="header__link--logo">
             <img src="./imagenes/logo.png" alt="Es una imagen que representa el logo de las reliquias de la muerte de Harry Potter" class="header__logo">
         </a>
         <nav class="menu container">
@@ -32,7 +32,50 @@
                     <a href="./views/contacto.html" class="menu__link">Contacto</a>
                 </li>
             </ul>
+        </nav> -->
+
+        <nav class="navbar navbar-dark navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./imagenes/logo.png" alt="logo" width="150px" class="header__logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active menu__link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active menu__link" aria-current="page" href="#">Autora</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle menu__link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Personajes
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Harry Potter</a></li>
+                                <li><a class="dropdown-item" href="#">Hermione Granger</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Ron Weasley</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active menu__link" aria-current="page" href="#">Merch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active menu__link" aria-current="page" href="#">Contacto</a>
+                        </li>
+                        </ul>
+                            <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                </div>
+            </div>
         </nav>
+
     </header>
     <main class="parallax container">
         <h1>Home</h1>
