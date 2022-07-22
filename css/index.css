@@ -15,7 +15,7 @@
 }
 
 .HPFont:hover{
-    font-size: 150px;
+    font-size: 175px;
 }
 
 .background__transparent{
@@ -28,10 +28,6 @@ body {
 }
 
 header nav{
-    /* width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; */
     background-color: black;
     color: white;
 }
@@ -69,13 +65,15 @@ header nav{
 
 .menu__link:hover{ 
     background-color: #0B0E09;
-    border-color: white;
+    color: #E6B801;
+    border-radius: 5px;
+    border-color: #E6B801;
     font-size: 40px;
     transition: border 1s;
 }
 
 a:hover{
-    color: inherit;
+    color: #E6B801;
 }
 
 /*CSS del main*/
@@ -91,7 +89,8 @@ h1{
     margin-bottom: 50px;
     margin: auto;
     background-color: rgba(0, 0, 0, .6);
-    width: 200px;
+    width: 35%;
+    border-radius: 15px;
 }
 
 .main__flex{
@@ -138,7 +137,7 @@ h1{
 footer{ 
     background-image: url("../imagenes/footerthunder.jpg");
     background-size: cover;
-    height: 150px;
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -155,6 +154,17 @@ footer{
 }
 
 /*Autora Exclusive*/
+.main__section--1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top:2px solid #E6B801;
+    border-left: 2px solid #E6B801;
+}
+
 .main__parrafo--inline{
     display: inline-block;
     margin-bottom: 50px;
@@ -171,36 +181,56 @@ footer{
     transform: rotate(10deg)
 }
 .main__foto--padding{
-    padding-bottom: 75px;
     height: 500px;
-    padding-left: 200px;
+    border-radius: 50%;
+}
+
+.main__section--2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    border-bottom:2px solid #E6B801;
+    border-right: 2px solid #E6B801;
 }
 
 .main__video{
     text-align: center;
-    padding-bottom: 50px;
+    margin:0 auto;
     transition: transform 0.6s;
+    width: 65%;
+}
+
+.main__video--size{
+    height:300px;
 }
 
 .main__video:hover{
-    transform: scale(2);
+    transform: scale(1.1);
 }
 
 /*Personajes Exclusive*/
-.main__foto--izquierda{
-    display: inline-block;
-    margin: 0 0 50px 50px;
-    width: 500px;
+.main__personajes__impar{
+    display: flex;
+    flex-direction: row;
+    border-left: 2px solid #E6B801;
+    margin-bottom: 10px;
+}
+
+.main__personajes__par{
+    display: flex;
+    flex-direction: row;
+    border-right: 2px solid #E6B801;
+    margin-bottom: 10px;
 }
 
 .main__parrafo--derecha{
-    display: inline-block;  
-    width: 500px;
-    font-family: 'Bookman Old Style', sans-serif;
-    margin: 0 0 0 100px;
-    padding: 0 0 200px 0;
+    margin: auto;
 }
-
 /*Merch exclusive*/
 .main__tabla--titulos{
     margin: 0 125px 0 125px;

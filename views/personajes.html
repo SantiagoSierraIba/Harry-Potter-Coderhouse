@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personajes</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="shortcut icon" href="../imagenes/logo.png">
 </head>
@@ -32,10 +32,11 @@
                             Personajes
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Harry Potter</a></li>
-                                <li><a class="dropdown-item" href="#">Hermione Granger</a></li>
+                                <li><a class="dropdown-item" href="./personajes.html #HarryPotter">Harry Potter</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Ron Weasley</a></li>
+                                <li><a class="dropdown-item" href="./personajes.html #HermioneGranger">Hermione Granger</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./personajes.html #RonWeasley">Ron Weasley</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -55,21 +56,21 @@
     </header>
     <main class="parallax container">
         <h1>Personajes</h1>
-        <div class="background__transparent">
+        <div class="background__transparent main__personajes__impar" id="HarryPotter">
             <h2 class="main__subtitulo">Harry Potter</h2>
-            <img src="../imagenes/harry.jpg" alt="Imagen que contiene a tres Harry Potter" class="main__foto--izquierda">
+            <img src="../imagenes/harry.png" alt="Imagen que contiene Harry Potter" class="main__foto--izquierda">
             <p class="main__parrafo--derecha">En su undécimo cumpleaños se entera de que es un mago y la trama de los libros se centra principalmente en los años en los que el huérfano Potter concurre al Colegio Hogwarts de Magia y Hechicería para practicar bajo la guía del director Albus Dumbledore y demás profesores. Allí, Harry también descubre que ya es famoso en todo el mundo mágico y que su destino está atado al de Lord Voldemort, el mago tenebroso mundialmente temido y asesino de su madre y su padre.</p>
         </div>
-        <div class="background__transparent">
-            <h2 class="main__subtitulo">Hermione Granger</h2>
-            <img src="../imagenes/hermione.jpg" alt="Imagen que contiene a tres Hermione Granger" class="main__foto--izquierda">
+        <div class="background__transparent main__personajes__par" id="HermioneGranger">
             <p class="main__parrafo--derecha">Aparece en la primera novela, Harry Potter y la piedra filosofal, como una nueva estudiante en su camino a Hogwarts. Después de que Harry y Ron la salvaron de un troll de montaña en los baños de las chicas, se formó una estrecha amistad entre ellos y con frecuencia usa su ingenio rápido, y conocimiento enciclopédico para ayudarlos.
             Rowling ha declarado que Hermione se asemeja a ella a una edad más joven, con su inseguridad y miedo al fracaso. Su papel es bastante determinante ya que, al tener buenas aptitudes de estudio, se la podría considerar como la "cerebro" del grupo, siendo incluso la consejera de su amigo Harry Potter en su liderazgo del Ejército de Dumbledore.
             Hermione es la chica más inteligente de su curso en el Colegio Hogwarts de Magia y Hechicería. Al igual que Harry y Ron pertenece a la casa de Gryffindor, pese a que el sombrero seleccionador consideró colocarla en Ravenclaw debido a sus prominentes capacidades intelectuales. Es de origen muggle: sus padres son ambos dentistas y no tienen ninguna relación con el mundo de los magos. Le encanta leer, sin embargo, no sabe dibujar. No le gusta romper las reglas salvo por alguna emergencia y no es especialmente entusiasta del quidditch, el deporte mágico, aunque apoya a sus amigos durante el campeonato. Tiende a creer que todo aquello que merece la pena saber se puede aprender de un libro y es escéptica respecto a todo lo que no se pueda comprobar con ciencia, despreciando, por tanto, la asignatura de adivinación impartida por la profesora Sybill Trelawney. Hermione conoció a Harry Potter y a Ron Weasley en el Expreso de Hogwarts.</p>
+            <img src="../imagenes/hermione.png" alt="Imagen que contiene a tres Hermione Granger" class="main__foto--izquierda">
+            <h2 class="main__subtitulo">Hermione Granger</h2>
         </div>
-        <div class="background__transparent">
+        <div class="background__transparent main__personajes__impar" id="RonWeasley">
             <h2 class="main__subtitulo">Ron Weasley</h2>
-            <img src="../imagenes/ronweasley.jpg" alt="Imagen que contiene a tres Ron Weasley" class="main__foto--izquierda">
+            <img src="../imagenes/ronweasley.png" alt="Imagen que contiene a tres Ron Weasley" class="main__foto--izquierda">
             <p class="main__parrafo--derecha">Es el sexto de los siete hijos de los Weasley. Es hijo de Arthur y Molly Weasley y hermano de Bill, Charlie, Percy, los gemelos Fred y George y la pequeña Ginny.
             Su padre trabaja en el Ministerio de Magia, mientras que su madre es ama de casa. Bill trabaja para el banco de magos en Egipto y Charlie cría dragones en Rumanía. Percy es asistente del ministro de magia y los gemelos acaban abriendo la tienda de bromas Sortilegios Weasley. Por último, su hermana pequeña Ginny acaba siendo la capitana del equipo de Quidditch Las Arpías de Holyhead.
             Pobres, pero honrados, los hermanos Weasley siempre han adquirido cosas de segunda mano, a pesar de que la tía Muriel está muy bien económicamente, pues posee una mansión en la que acaban escondiéndose de Voldemort y sus secuaces. Los abuelos paternos son Septimus Weasley y Cedrella Black, mientras que los maternos son Ignatius Prewett y Lucretia Black.
@@ -93,5 +94,6 @@
             </a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
