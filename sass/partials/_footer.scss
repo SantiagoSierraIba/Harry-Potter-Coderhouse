@@ -1,0 +1,23 @@
+footer{ 
+    background-image: url("../imagenes/footerthunder.jpg");
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    .footer__text{
+        display: inline-block;
+        font-family: 'Century Gothic',sans-serif;
+        margin-right: 100px;
+    }
+
+    .footer__imagenes{
+        display: inline-block;
+    }
+}
+
+
+

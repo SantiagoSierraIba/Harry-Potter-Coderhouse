@@ -1,0 +1,50 @@
+header{
+    header nav{
+        background-color: black;
+        color: white;
+    }
+    
+    .header__link--logo{
+        width: 200px;
+        margin: 0 250px 0 0;
+    }
+    
+    .header__logo{
+        display: flex;
+        width: 150px;
+    }
+    
+    .menu {
+        color: white;
+        font-size: 30px;
+        font-family: myFirstFont;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .menu__item{  
+        display: inline-block;
+    }
+    
+    .menu__link{
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        border: 2px solid black;
+    }
+    
+    
+    .menu__link:hover{ 
+        background-color: #0B0E09;
+        color: #E6B801;
+        border-radius: 5px;
+        border-color: #E6B801;
+        font-size: 40px;
+        transition: border 1s;
+    }
+    
+    a:hover{
+        color: #E6B801;
+    }
+}

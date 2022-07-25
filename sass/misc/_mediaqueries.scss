@@ -1,0 +1,597 @@
+@media (min-width:0px) and (max-width: 320px){
+
+    
+
+    .header__link--logo{
+        margin: auto;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .header__logo{
+        margin: auto;
+        width: 100px;
+    }
+    header{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .menu{
+        justify-content: center;
+        align-items: center;
+    }
+    .menu__item{  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul{
+        padding: 0;
+    }
+    .main__subtitulo{
+        font-size: 30px;
+    }
+
+    .container{
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 70px;
+        min-width:50% ;
+    }
+
+    .main__flex{
+        max-width: 100%;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .main__texto{
+        width: 100%;
+    }
+
+    .main__parrafo{
+        font-size: 15px;
+    }
+
+    .background__transparent{
+        width: 100%;
+    }
+
+    .HPFont{
+        font-size: 70px;
+    }
+
+    .HPFont:hover{
+        font-size: 70px;
+    }
+
+    .footer__text{
+        margin: 1em;
+    }
+
+    div a img{
+        width:30px;
+    }
+
+    /*Autora*/
+
+    .main__video{
+        width: 100%;
+    }
+    
+    .main__section--1{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    .main__parrafo{
+        margin: auto;
+        width: 95%;
+    }
+    .main__foto--inline{
+        width:100%;
+    }
+    .main__foto--padding{
+        padding:0;
+        max-height: 332px;
+    }
+    
+    .main__section--2{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 500px;
+    }
+    .main__video{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    /*Personajes*/
+    .main__personajes__impar{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+        margin-bottom: 20px;
+    }
+
+    .main__personajes__par{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+        margin-bottom:20px ;
+    }
+
+
+}
+
+ @media (min-width:321px) and (max-width: 507px) {
+
+    
+    .header__link--logo{
+        margin: auto;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .header__logo{
+        margin: auto;
+        width:100px;
+    }
+    header{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .menu{
+        justify-content: center;
+        align-items: center;
+    }
+    .menu__item{  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    .HPFont{
+        font-size: 70px;
+    }
+
+    .footer__text{
+        margin: 1rem;
+    }
+
+    .footer__imagenes{
+        width: auto;
+    }
+
+    div a img{
+        width:30px;
+    }
+
+    .container{
+        max-width: 90% ;
+    }
+
+    .main__flex{
+        max-width: 100%;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .main__texto{
+        width: 90%;
+    }
+
+    .background__transparent{
+        width: 90%;
+    }
+
+    .main__subtitulo{
+        font-size: 30px;
+    }
+
+    /*Autora*/
+    .main__video{
+        width: 100%;
+    }
+    
+    .main__section--1{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    .main__parrafo{
+        margin: auto;
+        width: 95%;
+    }
+    .main__foto--inline{
+        width:100%;
+    }
+    .main__foto--padding{
+        padding:0;
+        max-height: 332px;
+    }
+    
+    .main__section--2{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 500px;
+    }
+    .main__video{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    /*Personajes*/
+    .main__personajes__impar{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
+
+    .main__personajes__par{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
+} 
+@media (min-width: 507px) and (max-width: 768px){
+    .header__link--logo{
+        margin: auto;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .header__logo{
+        margin: auto;
+    }
+    header{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .menu{
+        justify-content: center;
+        align-items: center;
+    }
+    .menu__item{  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    .HPFont{
+        font-size: 130px;
+    }
+
+    .footer__text{
+        margin: 1rem;
+    }
+
+    .footer__imagenes{
+        width: auto;
+    }
+
+    div a img{
+        width:50px;
+    }
+
+    .container{
+        max-width: 90% ;
+    }
+
+    .main__flex{
+        max-width: 100%;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .main__texto{
+        width: 90%;
+    }
+
+    .background__transparent{
+        width: 90%;
+    }
+
+    /*Autora*/
+    .main__video{
+        width: 100%;
+    }
+    
+    .main__section--1{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    .main__parrafo{
+        margin: auto;
+        width: 95%;
+    }
+    .main__foto--inline{
+        width:100%;
+    }
+    .main__foto--padding{
+        padding:0;
+        max-height: 332px;
+    }
+    
+    .main__section--2{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 500px;
+    }
+    .main__video{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    /*Personajes*/
+    .main__personajes__impar{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
+
+    .main__personajes__par{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
+}
+
+@media (min-width:769px) and (max-width: 958px) {
+    header{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__link--logo{
+        margin: auto;
+    }
+
+    .main__flex{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .HPFont{
+        font-size: 130px;
+    }
+
+    .footer__text{
+        margin: 1rem;
+    }
+
+    .footer__imagenes{
+        width: auto;
+    }
+
+    div a img{
+        width:50px;
+    }
+
+    .container{
+        max-width: 90% ;
+    }
+
+    .main__flex{
+        max-width: 100%;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .main__texto{
+        width: 90%;
+    }
+
+    .background__transparent{
+        width: 90%;
+    }
+
+    /*Autora*/
+    .main__video{
+        width: 100%;
+    }
+    
+    .main__section--1{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    .main__parrafo{
+        margin: auto;
+        width: 95%;
+    }
+    .main__foto--inline{
+        width:100%;
+    }
+    .main__foto--padding{
+        padding:0;
+        max-height: 332px;
+    }
+
+    .main__section--2{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 500px;
+    }
+    
+    .main__video{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    /*Personajes*/
+    .main__personajes__impar{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
+
+    .main__personajes__par{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
+}
+
+/*MERCH MEDIA QUERIES*/
+@media (min-width:958px) and (max-width: 1400px) {
+    .container{
+        max-width: 90%;
+    }
+
+    .box__img__maxwidth{
+        max-width: 290px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 840px) {
+    .container{
+        max-width: 90%;
+    }
+
+    .box__img__maxwidth{
+        max-width: 285px;
+    }
+}
+
+@media (min-width:0px) and (max-width: 452px) {
+    main section{
+        width: 100%;
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    main section article{
+        width: 100%;
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    .background__transparent{
+        width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 70px;
+        min-width:50% ;
+    }
+
+}
+
+/*CORRECCIÓN PARA EL HOME*/
+@media (min-width: 507px) and (max-width: 536px){
+    .HPFont{
+        font-size: 70px;
+    }
+}
