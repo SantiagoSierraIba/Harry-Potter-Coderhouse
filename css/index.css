@@ -20,6 +20,7 @@
 
 .background__transparent{
     background-color: rgba(0, 0, 0, .6);
+    margin: auto;
 }
 
 body {
@@ -124,13 +125,11 @@ h1{
 
     background-image: url("../imagenes/castle.jpg");
     min-height: 600px;
-    
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-       
-     /* margin-bottom:50px; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: auto; */
 }
    
 /*CSS del footer*/
@@ -231,6 +230,11 @@ footer{
 .main__parrafo--derecha{
     margin: auto;
 }
+
+.main__foto--izquierda{
+    max-height: 329px;
+    margin: auto;
+}
 /*Merch exclusive*/
 .main__tabla--titulos{
     margin: 0 125px 0 125px;
@@ -253,6 +257,20 @@ footer{
     font-size: 15px;
     padding-bottom: 50px;
     font-family: 'Bookman Old Style',sans-serif;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 clamp(300px, 30%, 400px);
+}
+
+.box__img{
+    margin: auto;
+}
+.box__img__maxwidth{
+    max-width: 320px;
 }
 
 .main__tabla--foto{
@@ -325,7 +343,8 @@ footer{
     }
 
     h1{
-        font-size: 35px;
+        font-size: 70px;
+        min-width:50% ;
     }
 
     .main__flex{
@@ -390,14 +409,45 @@ footer{
     }
     .main__foto--padding{
         padding:0;
-        width: 90%;
+        max-height: 332px;
     }
     
+    .main__section--2{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 500px;
+    }
     .main__video{
         text-align: center;
         padding-bottom: 50px;
         width: 100%;
     }
+
+    /*Personajes*/
+    .main__personajes__impar{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+        margin-bottom: 20px;
+    }
+
+    .main__personajes__par{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+        margin-bottom:20px ;
+    }
+
+
 }
 
  @media (min-width:321px) and (max-width: 507px) {
@@ -500,13 +550,39 @@ footer{
     }
     .main__foto--padding{
         padding:0;
-        width: 90%;
+        max-height: 332px;
     }
     
+    .main__section--2{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 500px;
+    }
     .main__video{
         text-align: center;
         padding-bottom: 50px;
         width: 100%;
+    }
+    /*Personajes*/
+    .main__personajes__impar{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
+
+    .main__personajes__par{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
     }
 } 
 @media (min-width: 507px) and (max-width: 768px){
@@ -602,13 +678,39 @@ footer{
     }
     .main__foto--padding{
         padding:0;
-        width: 90%;
+        max-height: 332px;
     }
     
+    .main__section--2{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 500px;
+    }
     .main__video{
         text-align: center;
         padding-bottom: 50px;
         width: 100%;
+    }
+    /*Personajes*/
+    .main__personajes__impar{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
+
+    .main__personajes__par{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
     }
 }
 
@@ -692,7 +794,16 @@ footer{
     }
     .main__foto--padding{
         padding:0;
-        width: 90%;
+        max-height: 332px;
+    }
+
+    .main__section--2{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 500px;
     }
     
     .main__video{
@@ -700,5 +811,86 @@ footer{
         padding-bottom: 50px;
         width: 100%;
     }
+
+    /*Personajes*/
+    .main__personajes__impar{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
+
+    .main__personajes__par{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #E6B801;
+    }
 }
 
+/*MERCH MEDIA QUERIES*/
+@media (min-width:958px) and (max-width: 1400px) {
+    .container{
+        max-width: 90%;
+    }
+
+    .box__img__maxwidth{
+        max-width: 290px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 840px) {
+    .container{
+        max-width: 90%;
+    }
+
+    .box__img__maxwidth{
+        max-width: 285px;
+    }
+}
+
+@media (min-width:0px) and (max-width: 452px) {
+    main section{
+        width: 100%;
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    main section article{
+        width: 100%;
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        max-width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    .background__transparent{
+        width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 70px;
+        min-width:50% ;
+    }
+
+}
+
+/*CORRECCIÓN PARA EL HOME*/
+@media (min-width: 507px) and (max-width: 536px){
+    .HPFont{
+        font-size: 70px;
+    }
+}
