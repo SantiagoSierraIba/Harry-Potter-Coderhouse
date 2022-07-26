@@ -385,6 +385,9 @@ footer{
         width:30px;
     }
 
+    header nav div form{
+        margin-bottom: 15px;
+    }
     /*Autora*/
 
     .main__video{
@@ -527,6 +530,9 @@ footer{
         font-size: 30px;
     }
 
+    header nav div form{
+        margin-bottom: 15px;
+    }
     /*Autora*/
     .main__video{
         width: 100%;
