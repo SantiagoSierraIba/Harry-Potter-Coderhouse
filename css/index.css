@@ -437,7 +437,7 @@ footer{
         align-items: center;
         width: 100%;
         border-top: 2px solid #E6B801;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .main__personajes__par{
@@ -447,7 +447,7 @@ footer{
         align-items: center;
         width: 100%;
         border-top: 2px solid #E6B801;
-        margin-bottom:20px ;
+        margin-bottom:30px ;
     }
 
 
@@ -580,6 +580,7 @@ footer{
         align-items: center;
         width: 100%;
         border-top: 2px solid #E6B801;
+        margin-bottom: 30px;
     }
 
     .main__personajes__par{
@@ -589,6 +590,7 @@ footer{
         align-items: center;
         width: 100%;
         border-top: 2px solid #E6B801;
+        margin-bottom: 30px;
     }
 } 
 @media (min-width: 507px) and (max-width: 768px){
@@ -708,6 +710,7 @@ footer{
         align-items: center;
         width: 100%;
         border-top: 2px solid #E6B801;
+        margin-bottom: 30px;
     }
 
     .main__personajes__par{
@@ -717,6 +720,7 @@ footer{
         align-items: center;
         width: 100%;
         border-top: 2px solid #E6B801;
+        margin-bottom: 30px;
     }
 }
 
@@ -884,7 +888,6 @@ footer{
     }
     .background__transparent{
         width: 100% ;
-        margin: 0;
         padding: 0;
     }
     h1{
